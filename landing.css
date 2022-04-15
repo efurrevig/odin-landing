@@ -1,5 +1,6 @@
 body {
-
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -26,6 +27,7 @@ a {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin: 0 0 0 0;
 }
 
 .intro-subtext {
@@ -41,17 +43,19 @@ button {
     border-radius: 6px;
     padding: 7px 28px;
     border: none;
-    display: flex;
     align-self: flex-start;
+}
+
+img {
+    margin: 0px 0px 0px 16px;
 }
 
 .intro-container {
     display: flex;
-    flex: 1;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
     background-color: #1f2937;
-    padding: 8px 125px;
+    padding: 60px 125px 125px;
 }
 
 .intro {
@@ -59,3 +63,10 @@ button {
     flex: 1;
     flex-direction: column;
 }
+
+.links {
+    display: flex;
+    gap: 10px;
+}
+
+/* second section */
