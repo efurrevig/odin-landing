@@ -70,3 +70,44 @@ img {
 }
 
 /* second section */
+.info-container {
+    background-color: white;
+    min-height: 300px;
+    display: flex;
+    flex: 1 0;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 100px;
+}
+
+.img-subtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.placeholder-img {
+    min-height: 100px;
+    min-width: 100px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgb(39, 150, 241);
+}
+
+.info-header {
+    text-align: center;
+    padding: 12px 0px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 200px;
+    background-color: #e5e7eb
+}
